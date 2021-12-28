@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 40px 60px;
+
+    background-color: cornsilk;
+}
+.listing-wrapper {
+    margin-top: 20px;
+    width: 400px;
+
+    .listing__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &:first-child {
+            margin-bottom: 10px;
+        }
+    }
+}
